@@ -29,8 +29,6 @@ Additionally, this is a very good guide on porting an ASP.NET MVC WebSite to Mon
 -   Part 2: [Setting up and Configuring MySQL](http://www.integratedwebsystems.com/2010/02/how-to-setup-and-configure-mysql-membership-provider-6-2-2-porting-to-mono-part-2-of-3/)
 -   Part 3: [Walk through porting the ASP.NET MVC website](http://www.integratedwebsystems.com/2010/02/walkthrough-porting-asp-net-mvc-website-to-mono-2-6-1-and-mysql-on-linux-apache-porting-to-mono-part-3-of-3/).
 
-Novell: [From .NET to Linux in 5 Easy Steps](http://www.novell.com/connectionmagazine/2010/02/mono_tools.html)
-
  You need the Mono runtime and use one of Apache with [mod_mono](/docs/web/mod_mono/), a [CGI](/archived/cgi) or FastCGI-aware web server with Mono's [FastCGI](/docs/web/fastcgi/) support or the [xsp](/docs/web/aspnet/) standalone server (all available from our [downloads](/download/) page).
 
 To run ASP.NET 1.1 applications use mod-mono-server (for Apache), fastcgi-mono-server (for FastCGI servers) or xsp (for testing).
